@@ -1,0 +1,24 @@
+name = "url-shorten-worker"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# KV Namespace Bindings
+[[kv_namespaces]]
+binding = "LINKS"
+id = "" # Replace with your KV namespace ID
+# For development, you can also use preview_id
+# preview_id = "" # Replace with your preview KV namespace ID
+
+# Site configuration for serving static files
+[site]
+bucket = "public"
+
+# Routes (optional - configure these in Cloudflare dashboard)
+# [[routes]]
+# pattern = "example.com/*"
+# zone_name = "example.com"
+
+# Build configuration
+[build]
+command = ""
+cwd = ""

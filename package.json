@@ -1,0 +1,21 @@
+{
+  "name": "url-shorten-worker",
+  "version": "1.0.0",
+  "description": "A URL Shortener created using Cloudflare Worker",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "preview": "wrangler publish --dry-run"
+  },
+  "keywords": [
+    "url-shortener",
+    "cloudflare",
+    "worker"
+  ],
+  "author": "Untitled-developerYT",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.93.0"
+  }
+}
